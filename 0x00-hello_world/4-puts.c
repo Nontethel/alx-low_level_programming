@@ -2,6 +2,8 @@
 /*
  * main -print a line of code
  *
+ * Description: This program uses the puts function to print a message
+ *
  * Return: 0
  */
 int main(void)
