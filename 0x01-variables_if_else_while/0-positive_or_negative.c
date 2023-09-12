@@ -2,7 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- *main -Entry point
+ *
+ *main - Determines if a number is positive, negative or zero
  *
  *Return: 0
  */
