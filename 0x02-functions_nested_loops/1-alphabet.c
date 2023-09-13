@@ -1,22 +1,13 @@
-#ifndef main_h
-#define main_h
+#include "main.h"
+/**
+ * print_alphabet - print all alphabet in lowercase
+ */
 
-int _putchar(char);
-void print_alpha
-		        int _isalpha(int c);
+void print_alphabet(void)
+{
+	char letter;
 
-			        int print_sign(int n);
-
-				        int _abs(int);
-
-					        int print_last_digit(int);
-
-						        void jack_bauer(void);
-
-							        void times_table(void);
-
-								        int add(int, int);
-
-									        void print_to_98(int n);
-
-										        void print_times_table(int n);
+	for (letter = 'a'; letter <= 'z'; letter++)
+	_putchar(letter);
+	_putchar('\n');
+}
